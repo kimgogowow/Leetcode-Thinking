@@ -1,4 +1,4 @@
-class Solution {
+class Solution402 {
     public String removeKdigits(String num, int k) {
         //the sequence of the rest can not be changed
         if(k == num.length())
@@ -12,7 +12,7 @@ class Solution {
             }
             stack.push(num.charAt(i));
         }
-        System.out.println("stack is "+stack+" k is "+k);
+        System.out.println("stack is "+stack+" k is "+k);                                                                                                                                                                                            nnbnbvb
 
         String res = "";
         for(char c : stack){
