@@ -3,7 +3,7 @@
 Here are some questions I regard as "worth-recording", may be some  missing corner case or some interesting solution.
 
 ## Medium
-** Q402 : Remove K Digits**
+**Q402 : Remove K Digits**
 
 
 Think about all possibilities:
@@ -22,7 +22,7 @@ Think about all possibilities:
 
 * the order of run these method also need considering! Action 3 should be done before Action 2
   
-** Q310 : Minimum Height Tree
+**Q310 : Minimum Height Tree**
 
 1. The logic is BFS: remove the outer layer leaves (has only one neighbor) ,like pilling an onion!
 2. Great combinations: BFS+Queue   
