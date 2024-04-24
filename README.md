@@ -22,3 +22,9 @@ Think about all possibilities:
 
 * the order of run these method also need considering! Action 3 should be done before Action 2
   
+**Q310 : Minimum Height Tree
+
+1. The logic is BFS: remove the outer layer leaves (has only one neighbor) ,like pilling an onion!
+2. Great combinations: BFS+Queue   
+3. I used to question why just use 'iterator().next()', which returns an int only, I was thinking in this step I am supposed to remove the leave from all other set as well. But!! think about the definition of Leaves!!! they have only one neighbor girl!
+4. In the end, think about the result format, it is a List! and n can be odd or even, which means the result can be 1 or 2 int.
