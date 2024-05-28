@@ -52,3 +52,36 @@ Think about all possibilities:
 
 
 In summary, while the theoretical time complexity might be the same, practical performance can vary due to factors like overhead, collision handling, resizing, cache effects, and constant factors. That’s why, in practice, using a simple array can be faster than using a HashSet or List for certain operations, despite having the same big-O time complexity.
+
+**LC380**	
+1. random 方法 :  Random rand = new Random(); int index = rand.nextInt(int bound)
+2. set is not ordered and can not use index to get an element
+3. ArrayList can remove an element in two ways, either by its index, or its object val
+know the int val,but not the index ,do "list.remove(Integer.valueOf(val))"
+or I can search for the index first using"int index = list.indexOf(val)"
+
+**lC145**
+Binarytree traverse: Inorder Traverse(left-root-right) / preorder Traverse(root-left-right)/postorder Traverse(left-right-root)
+
+
+**lc666**
+use Queue to contruct a tree
+Queue can be implemented by LinkedList
+
+**lc945**	
+1. SORT ARRAYS
+2. n<n-1 => diff = nums(n-1)-nums(n)+1
+3. res += diff,nums[i] += diff
+
+**lc799**
+dp[][],注意line9和line10的范围，因为query_row是final answer 行，因此只需要走到上一行就可以停止，而glass位置需要cover
+
+** lc210 **
+graph/indegree = 0 => queue(ArrayQueue)
+
+**lc2115**
+graph/make hashmap for different two layers
+
+**lc452**
+arrays.sort/check overlap?
+
